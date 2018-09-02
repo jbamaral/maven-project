@@ -1,0 +1,48 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "webapp",
+                "projectName": "webapp",
+                "workingDirectory": "d:\\joao\\windocs\\maven-project\\webapp",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "server",
+                "projectName": "server",
+                "workingDirectory": "d:\\joao\\windocs\\maven-project\\server",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "webapp",
+                "projectName": "webapp",
+                "workingDirectory": "d:\\joao\\windocs\\maven-project\\webapp",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "server",
+                "projectName": "server",
+                "workingDirectory": "d:\\joao\\windocs\\maven-project\\server",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
