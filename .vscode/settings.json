@@ -1,3 +1,8 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "git.autofetch": true,
+    "git.autorefresh": true,
+    "gitlens.gitExplorer.autoRefresh": true,
+    "gitlens.codeLens.enabled": true,
+
 }
