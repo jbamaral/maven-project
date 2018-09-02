@@ -19,14 +19,18 @@ pipeline {
         stage ('Deployments'){
             parallel{
                 stage ('Deploy to Staging'){
-                    build job: 'deploy-to-staging'
+                    steps {
+                        build job: 'deploy-to-staging'
+                    }
                 }
 
                 stage ("Deploy to Production"){
-                    timeout(time:5, unit:'DAYS') {
-                        input message: 'Approve PRODUCTION Deployment?'
+                    steps {
+                        timeout(time:5, unit:'DAYS') {
+                            input message: 'Approve PRODUCTION Deployment?'
+                        }
+                        build job: 'deploy-to-Prod'
                     }
-                    build job: 'deploy-to-Prod'
                 }
             }
         }
