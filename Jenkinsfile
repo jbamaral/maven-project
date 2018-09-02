@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build'){
             steps {
-                cmd /C 'mvn clean package'
+                bat 'mvn clean package'
             }
             post {
                 echo "Now Archiving..."
